@@ -356,7 +356,7 @@ xmlhttp.onreadystatechange = function () {
                 </div>
             </div>
             <div class="options">
-                <button class="ml-3 mr-3 text-dark font-weight-bold" id='remove-btn${i}'>REMOVE</button> | <button class="ml-3 mr-3 text-dark font-weight-bold" id='badge-item-btn${i}'>ADD TO WISHLIST</button>
+                <button class="ml-3 mr-3 text-dark font-weight-bold" id='remove-btn${i}'>REMOVE</button> | <button class="ml-3 mr-3 text-dark font-weight-bold" id='wishlist-btn${i}'>ADD TO WISHLIST</button>
             </div>
         </div>
         <br>`;
@@ -383,7 +383,7 @@ xmlhttp.onreadystatechange = function () {
     document.getElementById("orderTotal").innerHTML =
       calculateTotalCartValue(pricesOnDiscount);
 
-    // assignin-btng prices to local storage so they can be retrieved in checkout page
+    // assigning prices to local storage so they can be retrieved in checkout page
     localStorage.setItem(
       "finalPrice",
       calculateTotalCartValue(pricesOnDiscount)
@@ -494,12 +494,12 @@ xmlhttp.onreadystatechange = function () {
 
       // addToWishlist functionality for cart items
       document
-        .getElementById("badge-item-btn" + i)
+        .getElementById("wishlist-btn" + i)
         .addEventListener("click", fadeOutEffect4);
       function fadeOutEffect4() {
         // get product Id of the removed product and update counter of cart icon
         var productId4 = document
-          .getElementById("badge-item-btn" + i)
+          .getElementById("wishlist-btn" + i)
           .closest(".cart-items-holder").id;
 
         var existing_fav_Products = JSON.parse(
@@ -515,7 +515,7 @@ xmlhttp.onreadystatechange = function () {
         }
         existing_fav_Products.push(
           document
-            .getElementById("badge-item-btn" + i)
+            .getElementById("wishlist-btn" + i)
             .closest(".cart-items-holder").id
         );
 
@@ -528,7 +528,7 @@ xmlhttp.onreadystatechange = function () {
           JSON.stringify(Array.from(existing_fav_Products))
         );
 
-        // fav_products.add(document.getElementById('badge-item-btn' + i).closest('.cart-items-holder').id);
+        // fav_products.add(document.getElementById('wishlist-btn' + i).closest('.cart-items-holder').id);
         // localStorage.setItem('Wishlist_IDs', JSON.stringify(Array.from(fav_products)));
         counter2 = JSON.parse(localStorage.getItem("Wishlist_IDs")).length;
         document.querySelector("#wishlist-badge").innerHTML = String(counter2);
@@ -610,7 +610,7 @@ xmlhttp.send();
 
 // ----------------------------------------------------------------------------------------------------------------------------
 
-// badge-item page logic
+// wishlist page logic
 let fav_products = new Set();
 let counter2 = 0;
 
@@ -674,7 +674,7 @@ xmlhttp2.onreadystatechange = function () {
         </div>
         <hr>`;
           totalWishlistItems += 1;
-          document.querySelector("#badge-item-items-container").innerHTML +=
+          document.querySelector("#wishlist-items-container").innerHTML +=
             ReturnedHTML3;
         }
       }
@@ -720,7 +720,7 @@ xmlhttp2.onreadystatechange = function () {
         }, 100);
       }
 
-      // addToCart functionality for badge-item items
+      // addToCart functionality for wishlist items
       document
         .getElementById("addToCart" + i)
         .addEventListener("click", fadeOutEffect3);
@@ -914,10 +914,10 @@ window.onload = function () {
     document.getElementById("tick-f").classList.remove("d-none");
     document.getElementById("tick-m").classList.add("d-none");
   }
-  const cart_num = JSON.parse(localStorage.getItem("Products_IDs")).length;
+  cart_num = JSON.parse(localStorage.getItem("Products_IDs")).length;
   document.querySelector("#cart-badge").innerHTML = cart_num;
-  const item_num = JSON.parse(localStorage.getItem("Wishlist_IDs")).length;
-  document.querySelector("#wishlist-badge").innerHTML = item_num;
+  wishlist_num = JSON.parse(localStorage.getItem("Wishlist_IDs")).length;
+  document.querySelector("#wishlist-badge").innerHTML = wishlist_num;
 };
 
 // --------------------------------------------------------------------------------------------------------------

@@ -6,12 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swag of India - Cart</title>
     <link rel="icon" type="image/png" href="Images/carts.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styles-xl.css">
-    <link rel="stylesheet" href="css/styles-lg.css">
-    <link rel="stylesheet" href="css/styles-md.css">
-    <link rel="stylesheet" href="css/styles-sm.css">
-    <link rel="stylesheet" href="css/styles-xs.css">
+    <link rel="stylesheet" href="css/commons.css">
+    <link rel="stylesheet" href="css/cart-page.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -46,12 +42,11 @@
                 </form>
             </div>
         </div>
-
-        <div class="bottom-header" id="bottom-head">
+        <div class="nav-bottom-header" id="bottom-head">
             <div class="sticky-bar-wrapper bg-white" id="sticky-section">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white" id="nav-bottom-header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white" id="nav-bottom-header-navbar">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="index-2.html"><img id="logo_img" src="Images/logo.png" alt="logo"
+                        <a class="navbar-brand" href="index.html"><img id="logo_img" src="Images/logo.png" alt="logo"
                                 role="img" aria-label=" website logo"></a>
                         <div class="input-group d-xl-none d-lg-none" id="search-bar-container">
                             <input type="search" id="search-bar-hidden" class="form-control"
@@ -61,54 +56,54 @@
                                     aria-labelledby="magnifying glass icon"></span>
                         </div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false"
+                            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbar-toggler">
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <ul class="navbar-nav mr-auto mt-2 ml-xl-5 ml-lg-5 ml-md-0 mt-lg-0 text-center">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index-2.html">Home</a>
+                                    <a class="nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link drop-btn" href="product-list.html">Categories</a>
-                                    <div class="categories-dropdown-content mt-2">
+                                    <div class="dropdown-content mt-2">
                                         <a href="product-list.html">Men</a>
                                         <a href="product-list.html">Women</a>
                                         <a href="product-list.html">Ethnic</a>
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link drop-btn" href="my-order.html">Orders</a>
-                                    <div class="orders-categories-dropdown-content mt-2">
+                                <li class="nav-item dropdown2">
+                                    <a class="nav-link drop-btn2" href="my-order.html">Orders</a>
+                                    <div class="dropdown-content2 mt-2">
                                         <a href="my-order.html">My Orders</a>
                                         <a href="track-order.html">Track Orders</a>
                                         <a href="return-order.html">Return Orders</a>
                                     </div>
                                 </li>
-                                <li class="nav-item badge-item">
+                                <li class="nav-item wishlist">
                                     <a class="nav-link" href="wishlist.html">Wishlist</a>
                                     <span class="badge" id="wishlist-badge">0</span>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link ml-xl-3 ml-md-0" href="my-profile.html">Profile</a>
                                 </li>
-                                <li class="nav-item badge-item">
+                                <li class="nav-item notification">
                                     <a class="nav-link active" href="cart-page.html">Cart</a>
                                     <span class="badge" id="cart-badge">0</span>
                                 </li>
                             </ul>
                             <form
                                 class="form-inline my-2 my-lg-0 d-flex flex-column align-items-stretch justify-content-start">
-                                <button class="btn btn-orange my-2 my-sm-0" id="signin-btn" type="button"
-                                    data-toggle="modal" data-target="#login-modal" aria-labelledby='sign-in-btn'>SIGN
+                                <button class="btn btn-orange my-2 my-sm-0" id="signin" type="button"
+                                    data-toggle="modal" data-target="#auth-modal" aria-labelledby='sign-in-btn'>SIGN
                                     IN</button>
                             </form>
                         </div>
                     </div>
                 </nav>
             </div>
-            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-label="login-modalTitle"
+            <div class="modal fade" id="auth-modal" tabindex="-1" role="dialog" aria-label="auth-modalTitle"
                 aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
@@ -131,7 +126,7 @@
                                         data-toggle='tab'>CREATE ACCOUNT</a>
                                 </li>
                             </ul>
-                            <div class="tab-content mt-3" id="modal-tab-content">
+                            <div class="tab-content mt-3" id="myTabContent">
                                 <div class="tab-pane active" id="login" role="tabpanel" aria-labelledby="tab1"
                                     aria-hidden='false'>
                                     <form class="d-flex flex-column">
@@ -155,7 +150,7 @@
                                         </div>
                                         <button type="submit" class="btn btn-orange rounded-0">SIGN
                                             IN</button><br>
-                                        <button type="submit" class="btn btn-inverse rounded-0">FORGOT YOUR
+                                        <button type="submit" class="btn btn-default2 rounded-0">FORGOT YOUR
                                             PASSWORD?</button>
                                     </form>
                                 </div>
@@ -214,7 +209,7 @@
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a class="text-dark" href="index-2.html">Home</a></li>
+            <li class="breadcrumb-item"><a class="text-dark" href="index.html">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Cart</li>
         </ol>
     </nav>
@@ -380,21 +375,22 @@
         </div>
     </footer>
     <script src="Javascript/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>
     <script src="Javascript/jQuery.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
         </script>
     <script>
         window.onload = function () {
-            const cart_num = JSON.parse(localStorage.getItem("Products_IDs")!!).length;
-            document.querySelector('#cart-badge')!!.innerHTML = cart_num;
-            const item_num = JSON.parse(localStorage.getItem("Wishlist_IDs")!!).length;
-            document.querySelector('#wishlist-badge')!!.innerHTML = item_num;
+            cart_num = JSON.parse(localStorage.getItem("Products_IDs")).length;
+            document.querySelector('#cart-badge').innerHTML = cart_num;
+            wishlist_num = JSON.parse(localStorage.getItem("Wishlist_IDs")).length;
+            document.querySelector('#wishlist-badge').innerHTML = wishlist_num;
         }
     </script>
 </body>
+
 
 </html>

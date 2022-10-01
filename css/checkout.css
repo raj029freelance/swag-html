@@ -1,0 +1,659 @@
+.checkout-section .container-fluid {
+  width: 75vw;
+}
+
+.checkout-section .first-half .accordion .card-header {
+  background-color: white;
+}
+
+.checkout-section .first-half .accordion .card {
+  border: none;
+}
+
+.checkout-section .first-half .accordion .acc-btn {
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+
+.checkout-section .first-half .accordion .card .card-body {
+  color: rgb(102, 101, 101);
+}
+
+.checkout-section .container-fluid .login-box {
+  border: 1px solid lightgray;
+  padding: 0.5em;
+}
+
+.checkout-section
+  .container-fluid
+  .first-half
+  .accordion
+  .card
+  .login-box
+  .orange-tick {
+  margin-right: 1em;
+}
+
+.checkout-section
+  .container-fluid
+  .first-half
+  .accordion
+  .card
+  .login-box
+  .part1 {
+  font-size: 0.7em;
+}
+
+.checkout-section
+  .container-fluid
+  .first-half
+  .accordion
+  .card
+  .login-box
+  .part2 {
+  font-size: 0.7em;
+}
+
+.checkout-section
+  .container-fluid
+  .first-half
+  .accordion
+  .card
+  .login-box
+  .part3
+  #change-btn {
+  border: 1px solid #fd6e00;
+  color: #fd6e00;
+  font-weight: bold;
+  width: 8em;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.checkout-section
+  .container-fluid
+  .first-half
+  .accordion
+  .card
+  .login-box
+  .part3
+  #change-btn:hover {
+  background-color: #fd6e00;
+  color: white;
+}
+
+.checkout-section .container-fluid .first-half .accordion .card .card-body {
+  border: none;
+}
+
+.checkout-section #myPaymentTab .desc-tabs .nav-item .nav-link {
+  color: black;
+  font-weight: 500;
+}
+
+.checkout-section .tabs-container .nav-tabs {
+  border: none;
+}
+
+.checkout-section .tabs-container .nav-link {
+  border: none;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.checkout-section .desc-tabs .nav-item .nav-link:hover {
+  border-left: 4px solid #fd6e00;
+  border-bottom: 1px solid lightgray !important;
+}
+
+.card-number-box label {
+  margin-right: 1em;
+}
+
+.select-month {
+  margin-right: 2.3em;
+}
+
+.select-cvv {
+  width: 4em;
+}
+
+#credit-card form p {
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+
+#debit-card form p {
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+
+#ac-number {
+  height: 2em;
+}
+
+#ifsc-number {
+  height: 2em;
+}
+
+.tagline {
+  font-size: 0.8em;
+}
+
+.billing-section p {
+  font-size: 0.9em;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .select-cvv {
+    width: 3em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part1 {
+    font-size: 1em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part2 {
+    font-size: 1em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part3
+    #change-btn {
+    width: 8em;
+    font-size: 0.9em;
+  }
+
+  #myTabContent form label {
+    font-size: 0.8em;
+  }
+
+  #myTabContent p {
+    font-size: 0.8em;
+  }
+
+  #myTabContent .select-month {
+    font-size: 0.8em;
+  }
+
+  #myTabContent .select-bank {
+    font-size: 0.8em;
+  }
+
+  #myTabContent .select-emi-month {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .checkout-section .container-fluid {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .select-cvv {
+    width: 3em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part1 {
+    font-size: 1em;
+    display: flex;
+    width: 50em;
+    justify-content: space-evenly;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part2 {
+    font-size: 1.1em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part3
+    #change-btn {
+    width: 9em;
+    font-size: 1.1em;
+  }
+
+  #myTabContent form label {
+    font-size: 0.8em;
+  }
+
+  #myTabContent p {
+    font-size: 0.8em;
+  }
+
+  #myTabContent .select-month {
+    font-size: 0.8em;
+  }
+
+  #myTabContent .select-bank {
+    font-size: 0.8em;
+  }
+
+  #myTabContent .select-emi-month {
+    font-size: 0.8em;
+  }
+
+  .checkout-section .tabs-container .nav-link {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .checkout-section .container-fluid {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part1 {
+    font-size: 1.2em;
+    display: flex;
+    width: 50em;
+    justify-content: space-evenly;
+  }
+
+  .checkout-section .container-fluid .first-half .accordion .card .card-body {
+    font-size: 0.9em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .orange-tick {
+    width: auto;
+    height: 2em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part2 {
+    font-size: 1.2em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    #change-btn {
+    height: 3em;
+    font-size: 1.1em !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  #credit-card {
+    font-size: 2vw;
+  }
+
+  #card-month {
+    width: 4em;
+  }
+
+  #card-year {
+    width: 4em;
+  }
+
+  .select-cvv {
+    width: 5em;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link {
+    font-size: 0.9em !important;
+  }
+
+  .desc-tabs .nav-item .nav-link:hover {
+    border-bottom: 2px solid #fd6e00 !important;
+    border-left: none;
+  }
+
+  #myTabContent form label {
+    font-size: 0.8em;
+  }
+
+  #myTabContent p {
+    font-size: 0.7em;
+  }
+
+  #myTabContent .select-month {
+    font-size: 0.8em;
+  }
+
+  #myTabContent .select-bank {
+    font-size: 0.8em;
+  }
+
+  #myTabContent .select-emi-month {
+    font-size: 0.8em;
+  }
+
+  #credit-card form p {
+    font-size: 0.7em;
+    font-weight: bolder;
+  }
+
+  .select-cvv {
+    width: 3em;
+    height: 2em;
+  }
+
+  #debit-card form p {
+    font-size: 0.7em;
+    font-weight: bolder;
+  }
+
+  .select-year select {
+    width: 3.5em;
+  }
+
+  #card-month3 {
+    width: 12em;
+  }
+
+  #emi-month {
+    width: 12em;
+  }
+}
+
+@media screen and (min-width: 460px) and (max-width: 575px) {
+  .checkout-section .container-fluid {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part1 {
+    font-size: 1.5em;
+    display: flex;
+    width: 40em;
+    justify-content: space-evenly;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .orange-tick {
+    width: auto;
+    height: 2.5em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part2 {
+    font-size: 1.5em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part3
+    #change-btn {
+    height: 3em;
+    font-size: 1.4em !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .checkout-section .container-fluid .first-half .accordion .card .card-body {
+    font-size: 0.8em;
+  }
+
+  .checkout-section .container-fluid .second-half {
+    margin-top: 2em;
+  }
+
+  .desc-tabs-content {
+    margin-left: 1em;
+  }
+
+  .desc-tabs .nav-item .nav-link:hover {
+    border-bottom: 2px solid #fd6e00 !important;
+    border-left: none;
+  }
+
+  #credit-card {
+    font-size: 2.5vw;
+  }
+
+  #card-month {
+    width: 6em;
+  }
+
+  #card-year {
+    width: 6em;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link {
+    font-size: 1.1em !important;
+  }
+
+  #myTabContent p {
+    font-size: 0.7em;
+  }
+
+  .select-cvv {
+    width: 4em;
+    height: 2em;
+  }
+
+  .select-year select {
+    width: 3.5em;
+  }
+
+  #card-month3 {
+    width: 12em;
+  }
+
+  #emi-month {
+    width: 12em;
+  }
+
+  #cash-delivery p {
+    font-size: 1em;
+  }
+
+  .tagline {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .checkout-section .container-fluid {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part1 {
+    font-size: 1.6em;
+    display: flex;
+    width: 40em;
+    justify-content: space-evenly;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .orange-tick {
+    width: auto;
+    height: 2.5em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part2 {
+    font-size: 1.6em;
+  }
+
+  .checkout-section
+    .container-fluid
+    .first-half
+    .accordion
+    .card
+    .login-box
+    .part3
+    #change-btn {
+    height: 3em;
+    font-size: 1.5em !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .checkout-section .container-fluid .second-half {
+    margin-top: 1.5em;
+  }
+
+  .checkout-section .tabs-container .desc-tabs-content {
+    margin-left: 1em;
+  }
+
+  #credit-card {
+    font-size: 2.5vw;
+  }
+
+  #debit-card {
+    font-size: 2.5vw;
+  }
+
+  #net-banking {
+    font-size: 2.5vw;
+  }
+
+  #cash-delivery {
+    font-size: 4vw;
+  }
+
+  #EMI {
+    font-size: 3vw;
+  }
+
+  #UPI {
+    font-size: 3vw;
+  }
+
+  #card-month {
+    width: 6em;
+  }
+
+  #card-year {
+    width: 6em;
+  }
+
+  .checkout-section .tabs-container .desc-tabs .nav-item .nav-link:hover {
+    border-bottom: 2px solid #fd6e00 !important;
+    border-left: none;
+  }
+
+  .checkout-section .tabs-container #myTabContent p {
+    font-size: 0.7em;
+  }
+
+  .select-cvv {
+    width: 4em;
+    height: 2em;
+  }
+
+  .select-year select {
+    width: 3.5em;
+  }
+
+  #card-month3 {
+    width: 12em;
+  }
+
+  #emi-month {
+    width: 12em;
+  }
+
+  .tagline {
+    margin-top: 1em;
+  }
+
+  .billing-section p {
+    font-size: 0.8em;
+  }
+}

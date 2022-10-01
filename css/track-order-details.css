@@ -1,0 +1,571 @@
+.track-order-details .mega-container .grid-column-2 .top-flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75vw;
+}
+
+.track-order-details .mega-container .grid-column-2 .top-flex-container span {
+  margin-right: 21em;
+  font-size: 0.8em;
+}
+
+.track-order-details
+  .mega-container
+  .grid-column-2
+  .top-flex-container
+  span
+  img {
+  margin-right: 0.5em;
+  font-size: 0.8em;
+}
+
+.track-order-details .mega-container .grid-column-2 .top-flex-container select {
+  height: 2.5em;
+  font-size: 0.8em;
+  padding: 0 0.2em;
+  font-weight: bold;
+}
+
+.track-order-details
+  .mega-container
+  .grid-column-2
+  .top-flex-container
+  .form-inline
+  label {
+  font-size: 0.8em;
+}
+
+.track-order-details .mega-container .grid-column-2 .media2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.track-order-details .mega-container .grid-column-2 .media2 > img {
+  width: auto;
+  height: 11em;
+  border: 1px solid rgb(233, 230, 230);
+}
+
+.track-order-details .mega-container .grid-column-2 .green-bar1 {
+  background-color: rgb(4, 202, 4);
+  width: 39vw;
+  height: 0.5em;
+}
+
+.track-order-details .mega-container .grid-column-2 .green-bar2 {
+  background-color: rgb(219, 219, 219);
+  height: 0.5em;
+}
+
+.track-order-details .mega-container .grid-column-2 .grey-bar {
+  background-color: rgb(219, 219, 219);
+  width: 17vw;
+  height: 0.5em;
+}
+
+.track-order-details .mega-container .grid-column-2 .green-bar1::before {
+  content: url("../Images/green-dot.png");
+  position: relative;
+  bottom: 0.5em;
+  right: 0.1em;
+}
+
+.track-order-details .mega-container .grid-column-2 .green-bar1::after {
+  content: url("../Images/green-dot.png");
+  position: relative;
+  bottom: 0.5vw;
+  left: 17vw;
+}
+
+.track-order-details .mega-container .grid-column-2 .green-bar2::after {
+  content: url("../Images/green-dot.png");
+  position: relative;
+  bottom: 0.5vw;
+  right: 1.2em;
+}
+
+.track-order-details .mega-container .grid-column-2 .grey-bar::after {
+  content: url("../Images/grey-dot.png");
+  position: relative;
+  bottom: 0.5vw;
+  left: 16vw;
+}
+
+.track-order-details .mega-container .grid-column-2 .grey-line1 {
+  background-color: lightgrey;
+  height: 0.1em;
+  margin-top: 2vw;
+}
+
+.track-order-details .mega-container .grid-column-2 .grey-line1::after {
+  content: url("../Images/grey-triangle.png");
+  position: relative;
+  bottom: 1.4vw;
+  left: 37.5vw;
+}
+
+.track-order-details .mega-container .grid-column-2 .tabulation .row .col {
+  font-size: 0.8em;
+}
+
+.track-order-details .mega-container .grid-column-2 .tabulation .link-under {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .track-order-details .mega-container .grid-column-2 .top-flex-container h5 {
+    font-size: 1.1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .top-flex-container span {
+    margin-right: 13em;
+    font-size: 0.8em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .media2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1 {
+    width: 39vw;
+    height: 0.45em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2 {
+    height: 0.45em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar {
+    width: 17vw;
+    height: 0.45em;
+  }
+
+  .mega-container .grid-column-2 .green-bar1::before {
+    bottom: 0.5em;
+    right: 0.1em;
+  }
+
+  .mega-container .grid-column-2 .green-bar1::after {
+    bottom: 0.8vw;
+    left: 16vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2::after {
+    bottom: 0.8vw;
+    right: 1.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar::after {
+    bottom: 0.8vw;
+    left: 15vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-line1::after {
+    bottom: 1.8vw;
+    left: 36.5vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .track-order-details .mega-container .grid-column-2 .top-flex-container h5 {
+    font-size: 1.1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .top-flex-container span {
+    margin-right: 4em;
+    font-size: 0.6em;
+  }
+
+  .track-order-details
+    .mega-container
+    .grid-column-2
+    .top-flex-container
+    .form-inline
+    label {
+    font-size: 0.7em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .return-box {
+    margin-top: 3em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1 {
+    width: 35vw;
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2 {
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar {
+    width: 17vw;
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1::before {
+    bottom: 0.5em;
+    right: 0.1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1::after {
+    bottom: 0.55em;
+    left: 14.5vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2::after {
+    bottom: 0.55em;
+    right: 0em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar::after {
+    bottom: 0.55em;
+    left: 16vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-line1::after {
+    bottom: 1.2em;
+    left: 34.5vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .tabulation .row .col {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .track-order-details .mega-container .grid-column-2 .top-flex-container {
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 75vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .top-flex-container span {
+    font-size: 0.8em;
+    margin-right: 0;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .top-flex-container h5 {
+    font-size: 1.3em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .img-info {
+    width: 30em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .media-body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1 {
+    width: 48vw;
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2 {
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar {
+    width: 19vw;
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1::before {
+    bottom: 0.5em;
+    right: 0.1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1::after {
+    bottom: 0.55em;
+    left: 19vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2::after {
+    bottom: 0.55em;
+    right: 1.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar::after {
+    bottom: 0.55em;
+    left: 16.5vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-line1 {
+    margin-top: 4vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-line1::after {
+    bottom: 1.2em;
+    left: 44vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .table-heading {
+    font-size: 1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .tabulation .row .col {
+    font-size: 0.65em;
+  }
+}
+
+@media screen and (min-width: 461px) and (max-width: 575px) {
+  .track-order-details .mega-container .grid-column-2 .top-flex-container {
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+    text-align: center;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .top-flex-container span {
+    margin-right: 0em;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .top-flex-container h5 {
+    font-size: 1.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .order-num {
+    margin-top: 0;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .img-info {
+    width: 30em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .media-body h5 {
+    font-size: 1.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .media-body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30em;
+    font-size: 0.8em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1 {
+    width: 48vw;
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2 {
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar {
+    width: 19vw;
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1::before {
+    bottom: 0.5em;
+    right: 0.1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1::after {
+    bottom: 0.55em;
+    left: 19vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2::after {
+    bottom: 0.55em;
+    right: 1.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar::after {
+    bottom: 0.55em;
+    left: 16.5vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-line1 {
+    margin-top: 4vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-line1::after {
+    bottom: 1.2em;
+    left: 43.5vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .table-heading {
+    font-size: 1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .tabulation .row .col {
+    font-size: 0.7em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 460px) {
+  .track-order-details .mega-container .grid-column-2 .top-flex-container {
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+    text-align: center;
+  }
+
+  .track-order-details.mega-container .grid-column-2 .top-flex-container span {
+    margin-right: 0em;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .top-flex-container h5 {
+    font-size: 1.4em;
+  }
+
+  .track-order-details .mega-container {
+    height: 95em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .order-num {
+    margin-top: 0;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .media2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .img-info {
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 32em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .return-box {
+    font-size: 0.8em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .img-info .stars-group {
+    justify-content: center;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .media-body h5 {
+    font-size: 1.2em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .media-body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30em;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .progressbar {
+    font-size: 0.9em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1 {
+    width: 48vw;
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2 {
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar {
+    width: 29vw;
+    height: 0.4em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1::before {
+    bottom: 0.5em;
+    right: 0.1em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar1::after {
+    bottom: 0.55em;
+    left: 17vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .green-bar2::after {
+    bottom: 0.55em;
+    right: 0em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-bar::after {
+    bottom: 0.55em;
+    left: 24vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-line1 {
+    margin-top: 4vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .grey-line1::after {
+    bottom: 1.2em;
+    left: 47vw;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .table-heading {
+    font-size: 0.8em;
+  }
+
+  .track-order-details .mega-container .grid-column-2 .tabulation .row .col {
+    font-size: 0.6em;
+    text-align: center;
+  }
+}

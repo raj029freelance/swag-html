@@ -1,0 +1,979 @@
+/* Start of Product view decor */
+
+.breadcrumb li:first-child {
+  margin-left: 3em;
+}
+
+.main-container {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.main-container .right-main-container .stars-group img:hover {
+  cursor: pointer;
+}
+
+.main-container .right-main-container .stars-group img {
+  width: auto;
+  height: 1em;
+}
+
+.main-container .right-main-container .stars-group span {
+  color: lightgray;
+  font-size: 0.9em;
+}
+
+.main-container .right-main-container .pricing .offer {
+  color: #fd6e00;
+}
+
+.main-container .right-main-container .description-text p {
+  color: grey;
+  font-size: 0.8em;
+}
+
+.main-container .right-main-container .select-container {
+  width: 30em;
+  height: auto;
+}
+
+.main-container .right-main-container .select-container .button-group button {
+  border-radius: 50%;
+  font-size: 1.1em;
+  margin-right: 0.3em;
+  background-color: white;
+  color: Black;
+  font-weight: normal;
+  border: 1px solid black;
+}
+
+.main-container
+  .right-main-container
+  .select-container
+  .button-group
+  button:hover {
+  color: #fd6e00;
+  font-weight: bold;
+  background-color: white;
+}
+
+.main-container .right-main-container .buttons-collection {
+  width: 30em;
+  height: auto;
+  margin-top: 2em;
+}
+
+.main-container .right-main-container .buttons-collection .cart-button,
+.main-container .right-main-container .buttons-collection .buynow-button {
+  color: white;
+  font-weight: bold;
+  background-color: #fd6e00;
+  border: none;
+  border-radius: 5px;
+  width: 14vw;
+  height: 3vw;
+}
+
+.main-container .right-main-container .buttons-collection .cart-button:hover,
+.main-container .right-main-container .buttons-collection .buynow-button:hover {
+  background-color: white;
+  color: #fd6e00;
+  font-weight: bold;
+  border: 1px solid #fd6e00;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main-container .right-main-container .buttons-collection img {
+  width: auto;
+  height: 4em;
+}
+
+.main-container .right-main-container .share-on-social {
+  width: 15em;
+  height: auto;
+}
+
+.right-main-container .share-on-social img {
+  width: auto;
+  height: 2.5em;
+}
+
+.main-container .right-main-container .delivery-support {
+  width: 30em;
+  height: auto;
+}
+
+.main-container .right-main-container .delivery-support span {
+  font-size: 0.8em;
+}
+
+.main-container .right-main-container .delivery-support img {
+  width: auto;
+  height: 4.3em;
+}
+
+/* Tabs decor */
+
+#myReviewTabContent h6 {
+  color: black;
+  font-weight: bold;
+}
+
+#myReviewTabContent .tab-pane p {
+  color: black;
+  font-weight: normal;
+}
+
+#myReviewTab,
+.desc-tabs-content {
+  width: 75vw;
+  margin: 0 auto;
+  border: none;
+  font-size: 0.8em;
+}
+
+.desc-tabs .nav-item .nav-link {
+  color: black;
+  font-weight: 500;
+  border: none;
+}
+
+#myReviewTab .nav-item .nav-link:hover {
+  border-bottom: 4px solid #fd6e00;
+}
+
+/* START OF REVIEW DECOR */
+.review-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.review-container .grid-container-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 25vw;
+  height: auto;
+}
+
+.review-container .grid-container-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.review-container .grid-container-1 .stars-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-container .grid-container-1 .stars-group img {
+  width: auto;
+  height: 1.2em;
+}
+
+.review-container .grid-container-1 .stars-group span {
+  font-size: 0.8em;
+}
+
+.review-container .grid-container-1 small {
+  color: gray;
+}
+
+.review-container .grid-container-1 .write-review p {
+  font-size: 0.7em;
+  color: gray;
+}
+
+.review-container .grid-container-1 .write-review button {
+  background-color: #fd6e00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width: 16vw;
+  height: 2vw;
+  font-size: 0.8vw;
+}
+
+.review-container .grid-container-1 .write-review button:hover {
+  background-color: white;
+  color: #fd6e00;
+  font-weight: bold;
+  border: 1px solid #fd6e00;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.review-container .grid-container-2 .review img {
+  width: auto;
+  height: 3vw;
+}
+
+.review-container .grid-container-2 .stars-group img {
+  width: auto;
+  height: 1em;
+}
+
+.review-container .grid-container-2 .stars-group span {
+  font-size: 0.8em;
+}
+
+.review-container .grid-container-2 .verified {
+  font-size: 0.8em;
+}
+
+.review-container .grid-container-2 .product-desc {
+  font-size: 0.8em;
+}
+
+.review-container .grid-container-2 .helpful-content {
+  color: grey;
+  font-size: 0.9vw;
+}
+
+.review-container .grid-container-2 .helpful-content span a {
+  color: grey;
+}
+
+.review-container .grid-container-2 .helpful-content button {
+  background-color: #fd6e00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width: 5vw;
+  height: 2vw;
+  font-size: 0.8vw;
+}
+
+.review-container .grid-container-2 .helpful-content button:hover {
+  background-color: white;
+  color: #fd6e00;
+  font-weight: bold;
+  border: 1px solid #fd6e00;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(100%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-100%);
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.33%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.33%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+.related-products .container {
+  width: 75vw;
+  margin: 0 auto 10em auto;
+}
+
+.related-products .container .card-body .stars-group img {
+  width: auto;
+  height: 1.3em;
+}
+.related-products .container .card-body h5 {
+  font-size: 1.3em;
+  color: black;
+}
+.related-products .container .card-body p {
+  font-size: 0.8em;
+  color: black;
+  font-weight: normal;
+}
+
+.offer {
+  color: #fd6e00;
+  font-weight: bolder;
+}
+
+.progress-div {
+  display: grid;
+  grid-template-columns: 0.8fr 4fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-self: center;
+  height: 1.3em;
+}
+
+.progress-div span:first-child {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 0.8vw;
+  color: rgb(61, 61, 255);
+}
+
+.progress-div .progress {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.progress-div span:last-child {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  font-size: 0.8vw;
+  margin-left: 0.3em;
+  color: rgb(60, 60, 255);
+}
+
+.see-more {
+  margin-top: 2em;
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .main-container .right-main-container .buttons-collection .cart-button,
+  .main-container .right-main-container .buttons-collection .buynow-button {
+    width: 13vw;
+    height: 3vw;
+  }
+
+  .review-container .grid-container-1 .write-review button {
+    width: 16vw;
+    height: 2vw;
+    font-size: 1vw;
+  }
+
+  .review-container .grid-container-1 h6 {
+    margin-bottom: 0;
+    font-size: 1.3em;
+  }
+
+  .review-container .grid-container-2 .helpful-content button {
+    width: 7vw;
+    height: 2vw;
+    font-size: 1vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content span a {
+    font-size: 0.9em;
+  }
+
+  .related-products .container .card-body h5 {
+    font-size: 1.4em;
+    color: black;
+  }
+
+  .related-products .container .card-body p {
+    font-size: 0.9em;
+    color: black;
+    font-weight: normal;
+  }
+
+  .related-products .container .card-body .stars-group img {
+    width: auto;
+    height: 1.2em;
+  }
+
+  .progress-div {
+    display: grid;
+    grid-template-columns: 1.5fr 4.5fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 1.3em;
+  }
+
+  .progress-div span:first-child {
+    font-size: 1vw;
+  }
+
+  .progress-div span:last-child {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .right-main-container .buttons-collection .cart-button,
+  .right-main-container .buttons-collection .buynow-button {
+    width: 15vw;
+    height: 4.5vw;
+  }
+
+  .review-container .grid-container-1 .write-review button {
+    width: 18vw;
+    height: 3vw;
+    font-size: 1.1vw;
+  }
+
+  .review-container .grid-container-1 h6 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+  }
+
+  .review-container .grid-container-2 .helpful-content button {
+    width: 8vw;
+    height: 2.5vw;
+    font-size: 1.1vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content span a {
+    font-size: 1.1em;
+  }
+
+  .review-container .grid-container-1 .stars-group img {
+    width: auto;
+    height: 1em;
+  }
+
+  .review-container .grid-container-1 .stars-holder span {
+    font-size: 0.9em;
+  }
+
+  .related-prods-container .carousel-item {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .related-prods-container h2 {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .related-products .container .card-body h5 {
+    font-size: 1.2em;
+    color: black;
+  }
+
+  .related-products .container .card-body p {
+    font-size: 0.8em;
+    color: black;
+    font-weight: normal;
+  }
+
+  .related-products .container .card-body .stars-group img {
+    width: auto;
+    height: 1em;
+  }
+
+  .desc-tabs .nav-item {
+    font-size: 1.3vw;
+  }
+
+  .desc-tabs-content .tab-pane h6 {
+    font-size: 1em;
+  }
+
+  .desc-tabs-content .tab-pane p {
+    font-size: 0.8em;
+  }
+
+  .progress-div {
+    display: grid;
+    grid-template-columns: 1.5fr 4.5fr 3fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 1.3em;
+  }
+
+  .progress-div span:first-child {
+    font-size: 1vw;
+  }
+
+  .progress-div span:last-child {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .desc-tabs .nav-item {
+    font-size: 1.8vw;
+  }
+
+  .main-container .right-main-container .buttons-collection .cart-button,
+  .main-container .right-main-container .buttons-collection .buynow-button {
+    width: 15vw;
+    height: 3.5vw;
+  }
+
+  .review-container .grid-container-1 .stars-holder span {
+    font-size: 0.8em;
+  }
+
+  .review-container .grid-container-1 h6 {
+    margin-bottom: 0;
+    font-size: 1.3em;
+  }
+
+  .review-container .grid-container-1 .write-review button {
+    width: 18vw;
+    height: 3vw;
+    font-size: 1.3vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content button {
+    width: 7vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content span a {
+    font-size: 1.2em;
+  }
+
+  .related-products .container h2 {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  .related-products .container .card-body h5 {
+    font-size: 1em;
+    color: black;
+  }
+
+  .related-products .container .card-body p {
+    font-size: 0.6em;
+    color: black;
+    font-weight: normal;
+  }
+
+  .related-products .container .card-body .stars-group img {
+    width: auto;
+    height: 1em;
+  }
+
+  .progress-div {
+    display: grid;
+    grid-template-columns: 1.5fr 4.5fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 1.3em;
+  }
+
+  .progress-div span:first-child {
+    font-size: 1.2vw;
+  }
+
+  .progress-div span:last-child {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .right-main-container {
+    font-size: 0.8em;
+  }
+
+  .desc-tabs .nav-item {
+    font-size: 2vw;
+  }
+
+  .main-container .right-main-container .buttons-collection .cart-button,
+  .main-container .right-main-container .buttons-collection .buynow-button {
+    width: 21vw;
+    height: 5vw;
+  }
+
+  .main-container .right-main-container .share-on-social {
+    width: 30vw;
+  }
+
+  .review-container .grid-container-1 .stars-holder span {
+    font-size: 0.8em;
+  }
+
+  .review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review-container .grid-container-1 {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .review-container .grid-container-2 .helpful-content button {
+    width: 11vw;
+    height: 4.5vw;
+    font-size: 2.2vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content span a {
+    font-size: 2.2em;
+  }
+
+  .related-products .container .card-body h5 {
+    font-size: 4.5vw;
+  }
+
+  .related-products .container .card-body p {
+    font-size: 2vw;
+  }
+
+  .related-products .container h2 {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .review-container .grid-container-1 h6 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
+
+  .review-container .grid-container-1 .write-review button {
+    width: 21vw;
+    height: 4.5vw;
+    font-size: 1.6vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content button {
+    width: 8vw;
+    height: 3.5vw;
+    font-size: 1.6vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content span a {
+    font-size: 1.6em;
+  }
+
+  .progress-div {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 1.3em;
+  }
+
+  .progress-div span:first-child {
+    font-size: 1.7vw;
+  }
+
+  .progress-div span:last-child {
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (min-width: 460px) and (max-width: 575px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-container .left-main-container .row {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: auto;
+    width: 75vw;
+  }
+
+  .main-container .left-main-container .img-col-1 img {
+    width: auto;
+    height: 8vw;
+  }
+
+  .main-container .right-main-container .select-container {
+    width: 60vw;
+    height: auto;
+  }
+
+  .main-container .right-main-container .select-container .button-group button {
+    font-size: 0.9em;
+    margin-right: 0.3em;
+  }
+
+  .main-container .right-main-container .select-container .btn-group button {
+    font-size: 0.9em;
+  }
+
+  .main-container .right-main-container .stars-group span p {
+    font-size: 0.8em;
+  }
+
+  .main-container .right-main-container .share-on-social h6 {
+    font-size: 0.9em;
+  }
+
+  .main-container .right-main-container .share-on-social {
+    width: 40vw;
+  }
+
+  .main-container .right-main-container .share-on-social img {
+    width: auto;
+    height: 1.7em;
+  }
+
+  .main-container .right-main-container .delivery-support span {
+    font-size: 0.65em;
+  }
+
+  #myReviewTab,
+  .desc-tabs-content {
+    width: 75vw !important;
+    margin: 0 auto !important;
+  }
+
+  .desc-tabs .nav-item {
+    font-size: 2.6vw;
+    border: none;
+  }
+
+  .main-container .right-main-container .buttons-collection .cart-button,
+  .main-container .right-main-container .buttons-collection .buynow-button {
+    width: 23vw;
+    height: 6.5vw;
+    font-size: 0.8em;
+  }
+
+  .review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review-container .grid-container-1 .write-review button {
+    width: 34vw;
+    height: 6.5vw;
+    font-size: 2.3vw;
+  }
+
+  .review-container .grid-container-1 h6 {
+    margin-bottom: 0;
+    font-size: 1.6em;
+  }
+
+  .review-container .grid-container-1 {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .review-container .grid-container-2 .helpful-content button {
+    width: 13vw;
+    height: 5vw;
+    font-size: 2.4vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content span a {
+    font-size: 2.4em;
+  }
+
+  .related-products .container .card-body h5 {
+    font-size: 4.5vw;
+  }
+
+  .related-products .container .card-body p {
+    font-size: 2.5vw;
+  }
+
+  .related-products .container h2 {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .progress-div {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 1.3em;
+  }
+
+  .progress-div span:first-child {
+    font-size: 2.2vw;
+  }
+
+  .progress-div span:last-child {
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 459px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-container .left-main-container .row {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: auto;
+    width: 75vw;
+  }
+
+  .main-container .left-main-container .img-col-1 img {
+    width: auto;
+    height: 8vw;
+  }
+
+  .main-container .right-main-container .select-container {
+    width: 55vw;
+    height: auto;
+  }
+
+  .main-container .right-main-container .select-container .button-group button {
+    font-size: 0.8em;
+    margin-right: 0.3em;
+  }
+
+  .main-container .right-main-container .select-container .btn-group button {
+    font-size: 0.8em;
+  }
+
+  .main-container .right-main-container .stars-group span p {
+    font-size: 0.75em;
+  }
+
+  .main-container .right-main-container .select-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-container .right-main-container .share-on-social h6 {
+    font-size: 0.9em;
+  }
+
+  .main-container .right-main-container .share-on-social {
+    width: 38vw;
+  }
+
+  .main-container .right-main-container .share-on-social img {
+    width: auto;
+    height: 1.5em;
+  }
+
+  .main-container .right-main-container .delivery-support span {
+    font-size: 0.6em;
+  }
+
+  #myReviewTabContent .tab-pane p {
+    font-size: 0.8em;
+  }
+
+  .main-container .desc-tabs .nav-item {
+    font-size: 2vw;
+  }
+
+  .main-container .right-main-container .buttons-collection .cart-button,
+  .main-container .right-main-container .buttons-collection .buynow-button {
+    width: 28vw;
+    height: 6.5vw;
+    font-size: 0.8em;
+  }
+
+  .main-container .right-main-container .buttons-collection a img {
+    width: auto;
+    height: 3.4em;
+  }
+
+  .review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .review-container .grid-container-1 .write-review button {
+    width: 34vw;
+    height: 6.5vw;
+    font-size: 2.3vw;
+  }
+
+  .review-container .grid-container-1 h6 {
+    margin-bottom: 0;
+    font-size: 1.6em;
+  }
+
+  .review-container .grid-container-1 {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .review-container .grid-container-2 .helpful-content button {
+    width: 13vw;
+    height: 5vw;
+    font-size: 2.4vw;
+  }
+
+  .review-container .grid-container-2 .helpful-content span a {
+    font-size: 2.4em;
+  }
+
+  .related-products .container .card-body h5 {
+    font-size: 5.5vw;
+  }
+
+  .related-products .container .card-body p {
+    font-size: 3vw;
+  }
+
+  .related-products .container h2 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .progress-div {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 1.3em;
+  }
+
+  .progress-div span:first-child {
+    font-size: 2.2vw;
+  }
+
+  .progress-div span:last-child {
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .progress-div {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-self: center;
+    height: 1.3em;
+  }
+
+  .progress-div span:first-child {
+    font-size: 2.5vw;
+  }
+
+  .progress-div span:last-child {
+    font-size: 2.5vw;
+  }
+}
